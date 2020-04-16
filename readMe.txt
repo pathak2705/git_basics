@@ -17,9 +17,9 @@ git revert HEAD -> takes the file back to just previous version/commit
 	
 *merge conflict -> to promote collaborative workspace, git provides a feature known as merge conflict
                    When we commit something locally without pulling the latest remote version of the file
-				   then Git places this as a merge conflict and merges our file with both versions where
-				   text between <<< and === is local change and text between === and >>> is remote change.
-				   Hence, we can see both versions simultaneously and accept/reject a version according to 
-				   our requirements.
-				   (*note first pull then do any commits)
+		   then Git places this as a merge conflict and merges our file with both versions where
+		   text between <<< and === is local change and text between === and >>> is remote change.
+		   Hence, we can see both versions simultaneously and accept/reject a version according to 
+		   our requirements.
+		   (*note first pull then do any commits)
                    				   
