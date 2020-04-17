@@ -42,6 +42,9 @@ git switch - -> this will undo the just previous command written
 
 git merge branch_name -> merges the given branch with current branch
 
+git pull origin banch_name -> pulls from a particular branch
+eg- git pull origin master
+
 git push --set-upstream origin branch_name -> when there are more than one branch in a project, user has to specify which
                                               branch to push
                    				   
