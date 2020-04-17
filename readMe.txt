@@ -22,4 +22,11 @@ git revert HEAD -> takes the file back to just previous version/commit
 		   Hence, we can see both versions simultaneously and accept/reject a version according to 
 		   our requirements.
 		   (*note first pull then do any commits)
+
+git branch -> lists out all the branches made in a project
+
+git checkout -> moves the HEAD pointer(curren pointer) towards the named branch
+eg- git checkout branch_name
+
+git merge -> merges all the branches back in one version
                    				   
