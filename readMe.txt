@@ -11,6 +11,7 @@ git pull -> pulls file from remote to local repository
 git status -> shows the difference between local and and remote files
 
 git log -> gives a log data of all commits
+           (*note to quit from git log window press q)
 
 git revert HEAD -> takes the file back to just previous version/commit
 	(*note that redoing it will take file to the latest version again)
