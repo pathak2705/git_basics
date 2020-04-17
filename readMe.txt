@@ -29,9 +29,15 @@ eg- git commit -am readMe.txt"message"
 git branch -> lists out all the branches made in a project
 
 git branch branch_name -> adds a new branch to current project
+eg- git branch feature
 
-git checkout -> moves the HEAD pointer(current pointer) towards the named branch
-eg- git checkout branch_name
+git checkout branch_name -> moves the HEAD pointer(current pointer) towards the named branch
+eg- git checkout master
+
+git checkout commit_hash -> takes the HEAD pointer to the given commit
+                            You can either start working on this by making a new branch or switch to another branch to discard it.
+			    
+git switch - -> this will undo the just previous command written 
 
 git merge branch_name -> merges the given branch with current branch
 
