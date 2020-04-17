@@ -51,3 +51,6 @@ eg- git pull origin master
 git push --set-upstream origin branch_name -> when there are more than one branch in a project, user has to specify which
                                               branch to push
                    				   
+*forks -> another copy of repository for other users to work upon
+
+*pull request -> changes in code by other users which can further be merged if master user wants i.e., kind of a feedback from others
