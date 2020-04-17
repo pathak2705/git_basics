@@ -33,4 +33,7 @@ git checkout -> moves the HEAD pointer(current pointer) towards the named branch
 eg- git checkout branch_name
 
 git merge -> merges all the branches back in one version
+
+git push --set-upstream origin branch_name -> when there are more than one branch in a project, user has to specify which
+                                              branch to push
                    				   
