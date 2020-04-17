@@ -23,7 +23,8 @@ git revert HEAD -> takes the file back to just previous version/commit
 		   our requirements.
 		   (*note first pull then do any commits)
 		   
-git commit -am "message" -> adds and commits simultaneously
+git commit -am file_name"message" -> adds and commits simultaneously
+eg- git commit -am readMe.txt"message"
 
 git branch -> lists out all the branches made in a project
 
