@@ -6,7 +6,10 @@ eg- git commit -m "message"
 
 git push -> pushes the file from local to remote repository
 
+git fetch -> copies content of remote master branch to local repository
+
 git pull -> pulls file from remote to local repository
+            (*note it is a combination of 'git fetch + git merge')
 
 git status -> shows the difference between local and and remote files
 
