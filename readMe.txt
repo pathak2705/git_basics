@@ -1,4 +1,4 @@
-git add -> a cache of files that you want to commit - helps to manage between what to commit and what to not
+git add -> a cache of files that you want to commit - helps to manage between what to commit and what not to
 eg- git add xyz.html
 
 git commit  -> takes a snapshot of our file ready to be pushed
